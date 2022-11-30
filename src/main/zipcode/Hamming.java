@@ -16,6 +16,8 @@ public class Hamming {
         }
     }
 
+    //"hamming" is when chars of equal string lengths don't match
+    //"hamming distance" is the amount of not matching chars of two strings
     public int getHammingDistance() {
         int count = 0;
         //iterate through both strings and compare chars
